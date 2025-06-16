@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Para Mi mamá, Mónica 💌</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="flores-container" id="flores"></div>
+
+  <div class="carta-contenedor">
+    <div class="portada" onclick="abrirCarta()">
+      <h1>💐 Feliz Cumpleaños Mamá 💐</h1>
+      <p>Haz clic aquí para abrir tu carta</p>
+    </div>
+
+    <div class="carta" id="carta">
+      <h2>Querida Mamá,</h2>
+      <p>
+        Hoy quiero decirte cuánto te amo. A veces me cuesta encontrar las palabras exactas para describir lo increíble que eres como mamá.
+        Tal vez esta no fue la vida que soñaste para mí, pero quiero que sepas que para mí 
+        <strong>es la mejor vida</strong>, 
+        porque está llena de tu amor, tu esfuerzo y tu presencia constante.
+        Gracias por darlo todo, incluso cuando nadie lo ve. Gracias por cada abrazo, cada consejo, cada mirada que calma.
+        Eres mi ejemplo, mi refugio y mi razón de seguir adelante.
+      </p>
+      <p><strong>Te amo más de lo que las palabras pueden decir.</strong></p>
+      <p>Con todo mi amor,<br><strong>Tu hijo, Dairon</strong></p>
+      <button onclick="reproducirMusica()">🎵 Escuchar música</button>
+    </div>
+  </div>
+
+  <audio id="musica" src="assets/musica.mp3" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>
